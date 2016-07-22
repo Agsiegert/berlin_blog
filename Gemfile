@@ -48,4 +48,5 @@ end
 #temp gem to remove annoying deprication warning form sprockets
 gem 'sprockets', '3.6.3'
 
+gem 'puma'
 gem 'rails_12factor', group: :production
