@@ -1,0 +1,13 @@
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <%= link_to 'Home', scrivito_path(Obj.root), class: "navbar-brand" %>
+    </div>
+
+    <%= scrivito_tag_list :ul, Obj.root, :toclist, class: "nav navbar-nav" do |list, page| %>
+      <%= list.tag :li do %>
+        <%= link_to page.display_title, scrivito_path(page) %>
+      <% end %>
+    <% end %>
+  </div>
+</nav>
