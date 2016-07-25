@@ -48,6 +48,8 @@ end
 #temp gem to remove annoying deprication warning form sprockets
 gem 'sprockets', '3.6.3'
 
+gem "bootstrap-sass", "~> 3.3.5"
+
 gem "dotenv-rails", :groups => [:development, :test]
 gem "scrivito"
 gem 'puma'
