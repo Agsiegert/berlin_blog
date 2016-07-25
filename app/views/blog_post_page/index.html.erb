@@ -9,3 +9,5 @@
 <%= scrivito_tag(:div, @obj, :author) %>
 <%= scrivito_tag(:div, @obj, :abstract) %>
 <%= scrivito_tag(:div, @obj, :body) %>
+
+<%= render("blog_post_page/comments", post: @obj) %>

@@ -5,7 +5,8 @@ class BlogOverviewPageController < CmsController
     offset = params[:offset].to_i
 
     blog_posts_query = BlogPostPage.all.order(created: :desc)
-    blog_posts_query.batch_size(POSTS_PER_PAGE).offset(offset)
+    # If a tag is provided, then filter by it:    
+    blog_posts_query.and(:tags, :equals, params[:tag]) if params[:tag].present? 
     @blog_posts = blog_posts_query.take(POSTS_PER_PAGE)    
 
     total = blog_posts_query.size
