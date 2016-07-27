@@ -5,9 +5,9 @@
 <% end %>
 
 <%= scrivito_tag(:h1, @obj, :title) %>
-<%= scrivito_tag(:div, @obj, :created) %>
-<%= scrivito_tag(:div, @obj, :author) %>
 <%= scrivito_tag(:div, @obj, :abstract) %>
+<%= scrivito_tag(:div, @obj, :author) %>
+<%= time_ago_in_words(scrivito_tag(:div, @obj, :created)) %> ago
 <%= scrivito_tag(:div, @obj, :body) %>
 
 <%= render("blog_post_page/comments", post: @obj) %>
