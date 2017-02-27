@@ -170,7 +170,7 @@ GEM
       scrivito_editors (= 1.8.0)
       scrivito_sdk (= 1.8.0)
       scrivito_ui (= 1.8.0)
-    scrivito_column_widget (0.1.1)
+    scrivito_column_widget (0.1.2)
       scrivito
     scrivito_content_browser (1.8.0)
       railties
