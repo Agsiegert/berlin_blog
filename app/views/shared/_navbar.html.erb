@@ -3,11 +3,13 @@
     <div class="navbar-header">
       <%= link_to 'Home', scrivito_path(Obj.root), class: "navbar-brand" %>
     </div>
-
-    <%= scrivito_tag_list :ul, Obj.root, :toclist, class: "nav navbar-nav" do |list, page| %>
+    <%= scrivito_tag_list :ul, Obj.root, :toclist, class: "nav navbar-nav navbar-right" do |list, page| %>
       <%= list.tag :li do %>
         <%= link_to page.display_title, scrivito_path(page) %>
       <% end %>
     <% end %>
   </div>
 </nav>
+<div class="page-header">
+  <h1><center>Berlin Blog</center></h1>
+</div>

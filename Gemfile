@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "2.3.1"
+ruby '2.3.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0'
 # Use postgresql as the database for Active Record
@@ -35,6 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'rspec-rails', '~> 3.5'
+  gem 'rails-controller-testing'
 end
 
 group :development do
@@ -48,9 +50,10 @@ end
 #temp gem to remove annoying deprication warning form sprockets
 gem 'sprockets', '3.6.3'
 
-gem "bootstrap-sass", "~> 3.3.5"
+gem 'bootstrap-sass', '~> 3.3.5'
 
-gem "dotenv-rails", :groups => [:development, :test]
-gem "scrivito"
+gem 'dotenv-rails', :groups => [:development, :test]
+gem 'scrivito'
+gem 'scrivito_column_widget'
 gem 'puma'
 gem 'rails_12factor', group: :production

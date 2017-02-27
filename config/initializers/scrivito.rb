@@ -12,4 +12,8 @@ Scrivito.configure do |config|
   config.inject_preset_routes = false
   # Authentication stuff goes here...
     config.editing_auth { |env| Scrivito::User.system_user }
+
+  config.default_image_transformation = { 
+      width: 2000, height: 2000
+    }
 end
