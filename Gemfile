@@ -55,6 +55,9 @@ gem 'bootstrap-sass', '~> 3.3.5'
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'scrivito'
 gem 'scrivito_column_widget'
+gem 'scrivito_advanced_editors'
+gem 'scrivito_codemirror_editor'
+gem 'scrivito_highlightjs_widget'
 
 gem 'puma'
 gem 'rails_12factor', group: :production

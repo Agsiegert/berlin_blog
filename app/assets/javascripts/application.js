@@ -13,5 +13,23 @@
 //= require jquery
 //= require jquery_ujs
 //= require scrivito
+//= require scrivito_advanced_editors
+//= require scrivito_codemirror_editor
 //= require bootstrap-sprockets
 //= require_tree .
+
+scrivito.on("load", function() {
+  scrivito.editors.medium_editor.options = function() {
+    var extensions;
+    extensions = scrivito.editors.medium_editor.default_options().extensions;
+    return {
+      extensions: extensions,
+      toolbar: {
+        buttons: ['bold', 'italic', 'code', 'scrivito_anchor', 'h2', 'h3', 'unorderedlist', 'orderedlist', 'pre', 'removeFormat']
+      }
+    };
+  };
+  return scrivito.select_editor(function(element, editing) {
+      editing.use("codemirror");
+  });
+});
