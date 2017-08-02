@@ -1,0 +1,598 @@
+[
+  {
+    "blob": {
+      "file": "/Users/antony/infopark/berlin_blog/tmp/scrivito_export/files/06cfd2cb01d2a3a7-a5f55b9f1f66-Screen-Shot-2017-05-08-at-10.17.54.png"
+    },
+    "id": "06cfd2cb01d2a3a7",
+    "_obj_class": "Image",
+    "_last_changed": {
+      "date": "2017-05-08T13:09:26Z"
+    }
+  },
+  {
+    "title": "Welcome to my awesome site!",
+    "body": {
+      "widgets": [
+        {
+          "image": {
+            "reference": "d0479424c69ac44d"
+          },
+          "id": "28e5a4ac",
+          "_obj_class": "ImageWidget"
+        },
+        {
+          "text": "<p><br></p><p><br></p><p><br></p>",
+          "id": "64f1eb22",
+          "_obj_class": "TextWidget"
+        },
+        {
+          "text": "\n        <h3><span style=\"font-weight: normal;\">This site is to show a </span><b>new developer</b><span style=\"font-weight: normal;\"> how easy Scrivito is to </span><b>get started</b><span style=\"font-weight: normal;\">. &nbsp;There is a ton of <a href=\"/__scrivito/documentation\">documentation</a> for the more advanced attributes of </span><b><i>Scrivito</i></b><span style=\"font-weight: normal;\">, but we are </span><b>keeping it simple</b><span style=\"font-weight: normal;\">.</span></h3>\n      ",
+          "id": "5e8eb864",
+          "_obj_class": "TextWidget"
+        },
+        {
+          "column1": {
+            "widgets": [
+              {
+                "text": "<h3>Scrivito can be setup in less than ten minutes. &nbsp;You are not limited by how you build your site. &nbsp;Start with a couple widgets and move to an entire site built with editable content. &nbsp;No more waiting for a developer to dot the I's and cross the T's. &nbsp;No more \"little\" changes from marketing, work on the site and let Marketing do it themselves.</h3>",
+                "id": "0ed49ea2",
+                "_obj_class": "TextWidget"
+              }
+            ]
+          },
+          "column2": {
+            "widgets": [
+              {
+                "image": {
+                  "reference": "86423dd69a4328f6"
+                },
+                "id": "64152240",
+                "_obj_class": "ImageWidget"
+              }
+            ]
+          },
+          "column1_width": "4",
+          "column2_width": "8",
+          "column3_width": "0",
+          "column4_width": "0",
+          "column5_width": "0",
+          "column6_width": "0",
+          "id": "e35a75e5",
+          "_obj_class": "ColumnWidget"
+        }
+      ]
+    },
+    "child_order": {
+      "references": [
+        "aa077762ecf30110"
+      ]
+    },
+    "id": "0a7686e203b9da40",
+    "_path": "/",
+    "_obj_class": "Page",
+    "_last_changed": {
+      "date": "2017-02-27T13:14:46Z"
+    }
+  },
+  {
+    "blob": {
+      "file": "/Users/antony/infopark/berlin_blog/tmp/scrivito_export/files/1ab7b090c92109c9-23368f068cb0-IMG_1988.JPG"
+    },
+    "id": "1ab7b090c92109c9",
+    "_obj_class": "Image",
+    "_last_changed": {
+      "date": "2017-04-19T10:39:54Z"
+    }
+  },
+  {
+    "title": "Testing Scrivito implementations",
+    "body": {
+      "widgets": [
+        {
+          "image": {
+            "reference": "d690e419a8fe362d"
+          },
+          "id": "1c4fddb2",
+          "_obj_class": "ImageWidget"
+        },
+        {
+          "headline": "Testing Your Scrivito-Based Rails Apps",
+          "id": "5f9cb300",
+          "_obj_class": "HeadlineWidget"
+        },
+        {
+          "text": "<p>The question of how to test Scrivito comes up less often then you would expect but none the less it is asked. Remember Scrivito is just Ruby, but being a part of an API there are some caveats.  It is best kept in mind what Scrivito is, a Content Management System.  Being content, your testing will essentially be testing views.</p><p>To start, the Scrivito SDK is fully tested so no need, as usual, to test the API.</p><p>TL;DR</p><p>For Model/Unit tests it is recommended to ​limit tests to attribute testing.</p><p>When testing the views and content it is best tested with either JavaScript or more as a full integration test where you setup a separate CMS and test capybara style with a web-driver of some sort.</p><p>Pages and widgets themselves are tested like normal Rails models. Do not actually test stuff coming from the CMS, stub the CMS attribute methods and only test custom methods as one would normally do with a standard Rails model.&nbsp;</p>",
+          "id": "639ae622",
+          "_obj_class": "TextWidget"
+        },
+        {
+          "text": "<p>Visit <a href=\"https://scrivito.com/testing-your-scrivito-based-rails-app-fe6bd882f04b03c6\">Scrivito.com</a> for the full blog post</p>",
+          "id": "541a5258",
+          "_obj_class": "TextWidget"
+        }
+      ]
+    },
+    "tags": [
+      "tech"
+    ],
+    "abstract": "<p>The question of how to test Scrivito comes up less often then you would expect but none the less it is asked. Remember Scrivito is just Ruby, but being a part of an API there are some caveats.&nbsp;</p>",
+    "created": {
+      "date": "2017-02-27T10:19:15Z"
+    },
+    "author": "Antony",
+    "id": "23e7faad2fba557e",
+    "_obj_class": "BlogPostPage",
+    "_last_changed": {
+      "date": "2017-04-21T12:00:38Z"
+    }
+  },
+  {
+    "title": "Welcome to Scrivito!",
+    "body": {
+      "widgets": [
+        {
+          "headline": "A professional Cloud CMS built for Ruby on Rails.",
+          "id": "bae6cc73",
+          "_obj_class": "HeadlineWidget"
+        },
+        {
+          "text": "\n        <h3>Add content management to your website</h3>\n        <p>\n        With Scrivito, you can develop your website like you always did.\n        It just works, and it just works \"The Rails Way\".\n        </p>\n        <h3>No training for your editors required.</h3>\n        <p>\n        Your clients can edit content in-place, directly on the website itself.\n        Intuitively, without any training or HTML skills.\n        </p>\n        <h3>No installation required</h3>\n        <p>\n        You should focus on the important things:\n        Developing the functionality and look of your website.\n        That's why we built Scrivito as a cloud service.\n        So you don't have to keep on updating your CMS or worry about uptime all the time.\n        And you always get the newest features.\n        </p>\n      ",
+          "id": "8882cd4f",
+          "_obj_class": "TextWidget"
+        }
+      ]
+    },
+    "child_order": {
+      "references": [
+        "aa077762ecf30110"
+      ]
+    },
+    "id": "36736e6b121bc805",
+    "_path": "/",
+    "_obj_class": "Page",
+    "_last_changed": {
+      "date": "2016-07-25T09:59:43Z"
+    }
+  },
+  {
+    "title": "Pulling it up by the Bootstraps",
+    "body": {
+      "widgets": [
+        {
+          "headline": "Adding Bootstrap to make it look good",
+          "id": "49f87c72",
+          "_obj_class": "HeadlineWidget"
+        },
+        {
+          "image": {
+            "reference": "569fcac076676985"
+          },
+          "id": "f437cfbc",
+          "_obj_class": "ImageWidget"
+        },
+        {
+          "text": "<p>The <a href=\"http://getbootstrap.com/\">Bootstrap framework</a>, as <a href=\"https://scrivito.com/utilizing-the-bootstrap-or-foundation-framework-e703278a58a2214c\">Scrivito.com</a> puts it, is \"For enhancing the look of your application while maintaining the consistency of the design, using a front-end framework is a viable choice which in addition helps to speed up the development process\".&nbsp;</p>\n<p>In a matter of seconds the welcome page looks cleaner and formatted and a few lines later there is a navigation bar which will include all the pages created in Scrivito.</p>\n<p>Enhanced look... Check</p>\n<p>Sped up development process... Check</p>\n<p><br></p>",
+          "id": "263cc9b3",
+          "_obj_class": "TextWidget"
+        }
+      ]
+    },
+    "tags": [
+      "tech"
+    ],
+    "abstract": "<p>Adding Bootstrap to make it look good</p>",
+    "created": {
+      "date": "2016-06-06T09:48:00Z"
+    },
+    "author": "Antony",
+    "id": "463c9c870e66e1fc",
+    "_obj_class": "BlogPostPage",
+    "_last_changed": {
+      "date": "2016-07-25T14:35:22Z"
+    }
+  },
+  {
+    "blob": {
+      "file": "/Users/antony/infopark/berlin_blog/tmp/scrivito_export/files/569fcac076676985-fd43a050a914-bootstrap.png"
+    },
+    "id": "569fcac076676985",
+    "_obj_class": "Image",
+    "_last_changed": {
+      "date": "2016-07-25T09:52:36Z"
+    }
+  },
+  {
+    "title": "Customizing a widget",
+    "body": {
+      "widgets": [
+        {
+          "image": {
+            "reference": "6bca5dedae572910"
+          },
+          "id": "2371fb18",
+          "_obj_class": "ImageWidget"
+        },
+        {
+          "text": "<p>The Scrivito example app is a collection of some of the most used pages and widgets available with Scrivito integration. Some customers even use the example app as written and just update the content to fit their business. While the example app is designed to show you the many options available with Scrivito, they are not the only options. The flexibility of Scrivito allows you to customize just about every part to fit you needs. Add, remove, write your own... Scrivito was designed to put you in control, not to be in the way.</p><p>Recently we were asked how to add an image to the heading of a card widget. I thought this was a really nice option, was pretty easy to implement and shows just how flexible and easy Scrivito can be. &nbsp;</p>",
+          "id": "94a60fda",
+          "_obj_class": "TextWidget"
+        },
+        {
+          "column1": {
+            "widgets": [
+              {
+                "text": "<p>The card widget already has many options. For example, you can update the color of the heading or add an image to the body of the card. The default options are well displayed in the example app. But, let's customize it further.</p><p>Using the example app code as a reference, here is what you would add to have an image in the heading of a card widget.</p>",
+                "id": "601a4638",
+                "_obj_class": "TextWidget"
+              }
+            ]
+          },
+          "column2": {
+            "widgets": [
+              {
+                "image": {
+                  "reference": "dfd228722ec017db"
+                },
+                "id": "5142ba9b",
+                "_obj_class": "ImageWidget"
+              }
+            ]
+          },
+          "column1_width": "6",
+          "column2_width": "6",
+          "column3_width": "0",
+          "column4_width": "0",
+          "column5_width": "0",
+          "column6_width": "0",
+          "id": "9c992838",
+          "_obj_class": "ColumnWidget"
+        },
+        {
+          "text": "<p>First, we want to add another attribute to the model. The heading_image attribute is of the reference type and serves as a pointer to the image to use.&nbsp;</p>",
+          "id": "0f6fa8e1",
+          "_obj_class": "TextWidget"
+        },
+        {
+          "text": "<pre># app/models/card_widget.rb<br>...<br>attribute :heading_image, :reference<br>...</pre>",
+          "id": "af4eebdf",
+          "_obj_class": "TextWidget"
+        },
+        {
+          "text": "<p>Next, we want to add the option to select an image for the heading in the widget properties:</p>",
+          "id": "ba4f08e7",
+          "_obj_class": "TextWidget"
+        },
+        {
+          "text": "<pre># app/views/card_widget/details.html.erb<br>...<br>&lt;%= scrivito_details_for(\"Heading Background Image\") do %&gt;<br>  &lt;%= scrivito_tag(:div, widget, :heading_image, data: {<br>    scrivito_editors_filter_context: {<br>      _image: true,<br>    },<br>  }) %&gt;<br>&lt;% end %&gt;<br>...</pre>",
+          "id": "2259916a",
+          "_obj_class": "TextWidget"
+        },
+        {
+          "text": "<p>The scrivito_tag helper not only displays the image on the properties view but also lets you select one in editing mode using the Content Browser.</p><p>Finally, on the actual pages containing this widget, we want to add the image to the already existing “panel heading” div and show.heading “if” statement:&nbsp;</p>",
+          "id": "9950b93e",
+          "_obj_class": "TextWidget"
+        },
+        {
+          "text": "<pre># app/views/card_widget/show.html.erb<br>...<br>&lt;% if widget.show_heading? %&gt;<br>  &lt;div class=\"panel-heading\"<br>    &lt;% if widget.heading_image.present? %&gt;<br>      data-background-image-url=\"&lt;%= scrivito_url(widget.heading_image) %&gt;\"<br>    &lt;% end %&gt;<br>    &gt;<br>    &lt;%= scrivito_tag(:h3, widget, :title, class: \"panel-title\") %&gt;<br>  &lt;/div&gt;<br>&lt;% end %&gt;<br>...</pre>",
+          "id": "2d6ea43b",
+          "_obj_class": "TextWidget"
+        },
+        {
+          "text": "<p>That is it. Now, if an editor clicks the handle of a card widget (at the upper right corner) and selects “Widget properties” they will have the option to add a \"Heading image\".&nbsp;</p>",
+          "id": "23353314",
+          "_obj_class": "TextWidget"
+        },
+        {
+          "column1": {
+            "widgets": [
+              {
+                "image": {
+                  "reference": "06cfd2cb01d2a3a7"
+                },
+                "id": "0517beb1",
+                "_obj_class": "ImageWidget"
+              }
+            ]
+          },
+          "column2": {
+            "widgets": [
+              {
+                "text": "<p>&lt;&lt; Go from this...<br><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>...to this in three easy steps. &gt;&gt;</p>",
+                "id": "9e637dec",
+                "_obj_class": "TextWidget"
+              }
+            ]
+          },
+          "column3": {
+            "widgets": [
+              {
+                "image": {
+                  "reference": "8a651ae2d9d49a9a"
+                },
+                "id": "09d46e66",
+                "_obj_class": "ImageWidget"
+              }
+            ]
+          },
+          "column1_width": "5",
+          "column2_width": "2",
+          "column3_width": "5",
+          "column4_width": "0",
+          "column5_width": "0",
+          "column6_width": "0",
+          "id": "c398c31a",
+          "_obj_class": "ColumnWidget"
+        },
+        {
+          "text": "<p>Let us know what customizations you want.  We are happy to work with you to make it happen.&nbsp;</p>",
+          "id": "856c487f",
+          "_obj_class": "TextWidget"
+        }
+      ]
+    },
+    "abstract": "<p>Add an image to the heading of a card widget. This is a really nice option, is pretty easy to implement and shows just how flexible and easy Scrivito can be. &nbsp;</p>",
+    "created": {
+      "date": "2017-05-08T13:03:25Z"
+    },
+    "author": "Antony",
+    "id": "590e9f30b873df81",
+    "_obj_class": "BlogPostPage",
+    "_last_changed": {
+      "date": "2017-05-08T15:01:22Z"
+    }
+  },
+  {
+    "id": "5f4ffdf54ea77e19",
+    "_obj_class": "BlogOverviewPage",
+    "_permalink": "blog",
+    "_last_changed": {
+      "date": "2016-07-25T09:32:02Z"
+    }
+  },
+  {
+    "title": "On the road again...",
+    "body": {
+      "widgets": [
+        {
+          "image": {
+            "reference": "1ab7b090c92109c9"
+          },
+          "id": "b604f538",
+          "_obj_class": "ImageWidget"
+        },
+        {
+          "text": "<p><br></p><p>Our vacation was very nice.  We were a little worried as we had not yet received our German Drivers licenses as of yet but were able to transfer them the day before we left without a hitch.  Our flight to Stuttgart was uneventful and shorter than expected.  Driving the Rental car was weird at first but I quickly became comfortable driving again.</p><p>From Stuttgart, we traveled to Oppenau where my grandmother is from and several of my relatives still live. The visit with my extended family in Oppenau was really nice.  The whole family came to lunch and we were 20 people. The weather was very nice and the tree blossoms were in full bloom. We had several hikes including one to Wasserfälle Allerheiligen where my great grandfather helped to build a memorial for the fallen soldiers of WWI and WWII.</p><p>We went on a day trip to Strassburg and after leaving Oppenau we spent a night in Freiburg.  Freiburg was tough.  My youngest son fell into one of the street streams. My middle son had an accident on the swing set, landing face first in the sand and filled one eye with the sand.  We were able to remove it all and he is okay but I was sure were going to have to go to the hospital.  </p><p>The next day we drove to Staufen. It was a pretty town and interesting finding it was where the character from which Goethe's Faust is derived.</p><p>Next, we drove to Switzerland and hit the traffic, and hour extra drive time was tough but at least it was Beautiful.</p><p>Zurich was nice. We walked around for the day. Took a boat tour on the lake and got to go on a date night with my wife, while my mother watched the boys. We also bought the boys Swiss army knives for when they are ready to use them properly after learning about them in Boy Scouts.  The chocolate was fantastic of course and I splurged on a box of Sprüngli chocolates, 10 pieces for 21.50 FRC.</p><p>From Zurich, we traveled to Lichtenstein and had a wonderful lunch at a restaurant below the Balzers castle.  We sat outside with a wonderful view and a nice grassy area where the boys could play. On our way back to the highway we saw a nice little playground situated below the castle and spontaneously stopped and let the boys play.  It was a great playground with the Castle and vineyards above, an old church next to it, a quaint pond, and a gorgeous view of a dramatic mountain valley.  It was the most beautiful playground to which I have ever been.  Like a fairytale.</p><p>From there we drove through Austria briefly to our next destination, Lindau.  Lindau is a small island on the Bodensee or Lake Constance, depending on where or when you are from.  We stayed in an old guesthouse on the island and explored for 1.5 days.  Yet another beautiful little town with lots of history.</p><p>Finally, we set off back to Stuttgart for our flight home to Berlin.  After testing positive for explosive material and having my luggage thoroughly searched we had a short but bumpy flight home to Berlin.</p><p>I was impressed that in a week of driving, through 5 countries I was not honked at once, or flashed on the autobahn. After not driving for almost a year, it was as they say, like riding a bike.</p><p><br></p><p><b>Auf Deutsche</b></p><p>Unser Urlaub war sehr schön. Wir waren ein wenig besorgt, da wir unsere deutscheFührerscheine bisher noch nicht erhalten hatte, aber sie am Tag konnten vor unserer ohne Probleme Abreise übertragen. Unser Flug nach Stuttgart war ereignislos undkürzer als erwartet. Fahren des Mietwagens war komisch am ersten, aber ich wurdeschnell komfortabel fahren wieder.</p><p>Aus Stuttgart reisten wir nach Oppenau, wo ist meine Großmutter aus und einige meiner Verwandten Leben noch. Der Besuch mit meiner Familie in Oppenau war wirklich schön. Die ganze Familie zum Mittagessen und wir waren 20 Personen. Das Wetter war sehr schön und der Baum blüht standen in voller Blüte. Wir hatten mehrereWanderungen, darunter eine, Wasserfälle Allerheiligen wo mein Urgroßvater half, ein Denkmal für die gefallenen Soldaten des ersten und zweiten Weltkriegs errichten.</p><p>Wir gingen auf einen Tagesausflug in Strassburg und nach dem Ausscheiden aus Oppenau verbrachten wir eine Nacht in Freiburg. Freiburg war hart. Mein jüngste Sohn fiel in einen der Straße Streams. Mein mittlere Sohn hatte einen Unfall auf der Schaukel, Landung Gesicht zuerst in den Sand und ein Auge mit Sand gefüllt. Wir waren in der Lage, sie alle zu entfernen und er ist okay aber ich war mir sicher waren gehen zu müssen, ins Krankenhaus zu gehen.</p><p>Am nächsten Tag fuhren wir nach Staufen. Es war eine schöne Stadt und interessant zu finden war, wo der Charakter aus dem Goethes Faust abgeleitet wird.</p><p>Als nächstes fuhren wir in der Schweiz und traf den Verkehr und die Stunde, die zusätzliche Fahrzeit war hart, aber zumindest war es schön.</p><p>Zürich war schön. Wir gingen um für den Tag. Haben Sie eine Bootstour auf dem See und gehen auf ein Rendezvous mit meiner Frau, während meine Mutter die jungen beobachtet. Wir kauften auch die jungen Schweizer Taschenmesser für wenn sieman sie richtig einsetzt, nach dem Lernen über sie in Pfadfinder bereit sind. Die Schokolade war natürlich fantastisch und ich gönnten uns auf eine Schachtel Sprüngli-Pralinen, 10 Stück für 21,50 FRC.</p><p>Ab Zürich wir reisten nach Lichtenstein und hatten ein wunderbares Mittagessen ineinem Restaurant unterhalb der Burg Balzers. Wir saßen draußen mit eine wunderbare Aussicht und eine schöne Rasenfläche, wo die Jungs spielen konnte. Auf unserem Weg zurück zum Highway sahen wir ein schöner kleinen Spielplatz befindet sichunterhalb der Burg und spontan gestoppt und die Jungs spielen zu lassen. Es war ein großer Spielplatz mit der Burg und Weinberge oben, eine alte Kirche daneben, einem malerischen Teich, und eine wunderschöne Aussicht auf eine dramatische Bergtal. Es war der schönste Spielplatz, den ich je gewesen bin. Wie aus dem Bilderbuch.</p><p>Von dort fuhren wir durch Österreich kurz zu unserem nächsten Ziel, Lindau. Lindauist eine kleine Insel auf dem Bodensee oder Bodensee, je nachdem, wo und wannSie aus. Wir waren in einem alten Gasthaus auf der Insel und für 1,5 Tage erkunden. Noch eine andere schöne kleine Stadt mit viel Geschichte.</p><p>Schließlich fuhren wir zurück nach Stuttgart für unseren Rückflug nach Berlin. Nach dem Test positiv für explosive Stoffe und mit meinem Gepäck gründlich durchsuchthatten wir einen kurzen, aber holprigen Flug nach Hause nach Berlin.</p><p>Ich war beeindruckt, dass in einer Woche fahren, durch 5 Länder ich war nicht aufeinmal hupte, oder auf der Autobahn geblitzt. Nach fast einem Jahr nicht fahren, war es wie sie sagen, wie Fahrrad fahren.</p>",
+          "id": "7ddaa65b",
+          "_obj_class": "TextWidget"
+        }
+      ]
+    },
+    "abstract": "<p>An excerpt of our Easter vacation in 2017 to southwest Germany and surrounding countries</p>",
+    "created": {
+      "date": "2017-04-19T10:21:43Z"
+    },
+    "author": "Antony",
+    "id": "610e6ea1cb6ae541",
+    "_obj_class": "BlogPostPage",
+    "_last_changed": {
+      "date": "2017-04-19T10:40:48Z"
+    }
+  },
+  {
+    "blob": {
+      "file": "/Users/antony/infopark/berlin_blog/tmp/scrivito_export/files/627cae235189012b-6455952688ba-blog2.jpg"
+    },
+    "id": "627cae235189012b",
+    "_obj_class": "Image",
+    "_last_changed": {
+      "date": "2016-07-25T09:41:03Z"
+    }
+  },
+  {
+    "blob": {
+      "file": "/Users/antony/infopark/berlin_blog/tmp/scrivito_export/files/6bca5dedae572910-d515a4bcb2b9-mac_showcase-compressor.png"
+    },
+    "id": "6bca5dedae572910",
+    "_obj_class": "Image",
+    "_last_changed": {
+      "date": "2017-05-08T13:13:26Z"
+    }
+  },
+  {
+    "blob": {
+      "file": "/Users/antony/infopark/berlin_blog/tmp/scrivito_export/files/86423dd69a4328f6-b1ba201d87bb-Screen-Shot-2016-10-12-at-14.34.07.png"
+    },
+    "id": "86423dd69a4328f6",
+    "_obj_class": "Image",
+    "_last_changed": {
+      "date": "2016-10-12T14:45:45Z"
+    }
+  },
+  {
+    "blob": {
+      "file": "/Users/antony/infopark/berlin_blog/tmp/scrivito_export/files/8a651ae2d9d49a9a-b7d17999368e-Screen-Shot-2017-05-08-at-10.31.04.png"
+    },
+    "id": "8a651ae2d9d49a9a",
+    "_obj_class": "Image",
+    "_last_changed": {
+      "date": "2017-05-08T13:09:32Z"
+    }
+  },
+  {
+    "title": "First blog entry",
+    "body": {
+      "widgets": [
+        {
+          "headline": "Getting up and running with Scrivito",
+          "id": "59b92a75",
+          "_obj_class": "HeadlineWidget"
+        },
+        {
+          "image": {
+            "reference": "627cae235189012b"
+          },
+          "id": "d2968ca1",
+          "_obj_class": "ImageWidget"
+        },
+        {
+          "text": "<p>Since I was planning to deploy to Heroku I used <a href=\"https://devcenter.heroku.com/articles/getting-started-with-rails4\">their online tutorial for setting up a basic rails app</a>.  I had tried to follow the flow of setup rails new, add scrivito, add bootstrap, then setup to deploy to Heroku but something was amiss and it would not deploy.  Using Heroku’s tutorial I was able to deploy with no issues and be on my way.</p>\n<p> After adding Scrivito to the app I deployed again with no problems other than needing to setup permissions.  So that is the next step...&nbsp;<span style=\"line-height: 1.42857;\">Well <a href=\"https://scrivito.com/permissions\">Chuck Norris mode</a> was easy and works like a charm, but alas it is insecure and anyone who knows the url can edit content…  So we should improve that but the Scrivito guides indicate the need for an established rails Auth backend (read devise etc.) which we can leave for another day.</span></p>\n<p>So on to bootstrap, and making it look pretty</p>",
+          "id": "b3ec8a0f",
+          "_obj_class": "TextWidget"
+        }
+      ]
+    },
+    "tags": [
+      "tech"
+    ],
+    "abstract": "<p>Getting up and running with Scrivito</p>",
+    "created": {
+      "date": "2016-06-06T09:33:00Z"
+    },
+    "author": "Antony",
+    "id": "9b2100abf639d727",
+    "_obj_class": "BlogPostPage",
+    "_last_changed": {
+      "date": "2016-07-25T14:35:39Z"
+    }
+  },
+  {
+    "title": "Blog",
+    "id": "aa077762ecf30110",
+    "_path": "/6c69700444d4dde8",
+    "_obj_class": "BlogOverviewPage",
+    "_last_changed": {
+      "date": "2017-01-23T12:34:42Z"
+    }
+  },
+  {
+    "blob": {
+      "file": "/Users/antony/infopark/berlin_blog/tmp/scrivito_export/files/aa79ee31a3b38d4e-ddd0c96796c1-couchsurfing-berlin.jpg"
+    },
+    "id": "aa79ee31a3b38d4e",
+    "_obj_class": "Image",
+    "_last_changed": {
+      "date": "2016-07-25T12:41:38Z"
+    }
+  },
+  {
+    "id": "b2e98552b2f22f58",
+    "_path": "/_internal/migration-store",
+    "_obj_class": "MigrationStore",
+    "_last_changed": {
+      "date": "2016-10-12T13:30:10Z"
+    }
+  },
+  {
+    "title": "Welcome to Scrivito!",
+    "body": {
+      "widgets": [
+        {
+          "headline": "A professional Cloud CMS built for Ruby on Rails.",
+          "id": "172c88cc",
+          "_obj_class": "HeadlineWidget"
+        },
+        {
+          "text": "\n        <h3>Add content management to your website</h3>\n        <p>\n        With Scrivito, you can develop your website like you always did.\n        It just works, and it just works \"The Rails Way\".\n        </p>\n        <h3>No training for your editors required.</h3>\n        <p>\n        Your clients can edit content in-place, directly on the website itself.\n        Intuitively, without any training or HTML skills.\n        </p>\n        <h3>No installation required</h3>\n        <p>\n        You should focus on the important things:\n        Developing the functionality and look of your website.\n        That's why we built Scrivito as a cloud service.\n        So you don't have to keep on updating your CMS or worry about uptime all the time.\n        And you always get the newest features.\n        </p>\n      ",
+          "id": "251f0c3b",
+          "_obj_class": "TextWidget"
+        }
+      ]
+    },
+    "id": "c3b8df56c1978ba5",
+    "_path": "/",
+    "_obj_class": "Page",
+    "_last_changed": {
+      "date": "2016-07-22T14:21:46Z"
+    }
+  },
+  {
+    "blob": {
+      "file": "/Users/antony/infopark/berlin_blog/tmp/scrivito_export/files/c92d6df0cf3ff092-a210b00a6605-IMG_1204.JPG"
+    },
+    "id": "c92d6df0cf3ff092",
+    "_obj_class": "Image",
+    "_last_changed": {
+      "date": "2017-02-27T11:00:12Z"
+    }
+  },
+  {
+    "blob": {
+      "file": "/Users/antony/infopark/berlin_blog/tmp/scrivito_export/files/d0479424c69ac44d-1ff10ef0eb00-berlin_cnt_18nov09_iStock_b_1.jpg"
+    },
+    "id": "d0479424c69ac44d",
+    "_obj_class": "Image",
+    "_last_changed": {
+      "date": "2017-02-27T10:54:01Z"
+    }
+  },
+  {
+    "blob": {
+      "file": "/Users/antony/infopark/berlin_blog/tmp/scrivito_export/files/d690e419a8fe362d-401f52600e16-download.png"
+    },
+    "id": "d690e419a8fe362d",
+    "_obj_class": "Image",
+    "_last_changed": {
+      "date": "2017-02-27T10:23:22Z"
+    }
+  },
+  {
+    "blob": {
+      "file": "/Users/antony/infopark/berlin_blog/tmp/scrivito_export/files/dfd228722ec017db-b7acfda62c36-Screen-Shot-2017-05-08-at-10.17.54.png"
+    },
+    "id": "dfd228722ec017db",
+    "_obj_class": "Image",
+    "_last_changed": {
+      "date": "2017-05-08T13:09:09Z"
+    }
+  },
+  {
+    "title": "test page 1",
+    "body": {
+      "widgets": [
+        {
+          "headline": "Yet another American in Berlin...",
+          "id": "1d13338c",
+          "_obj_class": "HeadlineWidget"
+        }
+      ]
+    },
+    "id": "faf2bbb6db938f12",
+    "_obj_class": "Page",
+    "_last_changed": {
+      "date": "2016-07-25T07:20:20Z"
+    }
+  },
+  {
+    "title": "You are doing it all wrong",
+    "body": {
+      "widgets": [
+        {
+          "image": {
+            "reference": "aa79ee31a3b38d4e"
+          },
+          "id": "3b0c86af",
+          "_obj_class": "ImageWidget"
+        },
+        {
+          "text": "<p>According to a myriad of online data sources and impressions along my journey, the proper way to relocate to Berlin, or Germany for that matter, is to come on over and figure it out when you get here...&nbsp;</p>\n<p>&nbsp;You should: </p>\n<p></p>\n<ul>\n<li>\n<span style=\"line-height: 1.42857;\">Already know someone here to live with</span><br>\n</li>\n<li>\n<span style=\"line-height: 1.42857;\">Plan to mooch off their internet and phone and utilities</span><br>\n</li>\n<li>\n<span style=\"line-height: 1.42857;\">Have lots of money to spend until you maybe get a job</span><br>\n</li>\n<li>\n<span style=\"line-height: 1.42857;\">Don't make any long term plans</span><br>\n</li>\n</ul>\n<p>This is great and super easy if you 20.  But for an over 40ish with three kids and a sceptical wife, it was not going to cut it.  So I broke all the \"rules\".</p>",
+          "id": "bf70c75d",
+          "_obj_class": "TextWidget"
+        }
+      ]
+    },
+    "tags": [
+      "relocation",
+      "life in berlin"
+    ],
+    "abstract": "<p>Relocating to Germany</p>",
+    "created": {
+      "date": "2016-05-20T12:40:00Z"
+    },
+    "author": "Antony",
+    "id": "fbaab180e6a6105f",
+    "_obj_class": "BlogPostPage",
+    "_last_changed": {
+      "date": "2016-07-25T14:36:18Z"
+    }
+  }
+]
